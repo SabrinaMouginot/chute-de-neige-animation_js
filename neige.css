@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Pacifico', cursive;
 }
 
 header{
@@ -10,6 +10,7 @@ header{
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .snow, .snow2{
@@ -36,18 +37,21 @@ header{
 .text{
     color: #fff;
     text-align: center;
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 .text h1{
-    font-family: 'Satisfy', cursive;
+    font-family: cursive;
     font-size: 4em;
     text-shadow: 5px 5px 10px #111;
+    font-family: cursive;
+
 }
 
 .text p{
     color: #ff4e48;
     font-weight: bold;
+    font-size: 2em;
 }
 
 @keyframes snowfall{
