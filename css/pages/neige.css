@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: "Pacifico", cursive;
+}
+
+/* body {
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+} */
+main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: 0 0;
+  background: url(../../img/background.png) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.snow,
+.snowbis {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: 0 0;
+  background: url(../../img/snow.png);
+  opacity: 0.5;
+  animation: snowfall 30s linear infinite;
+}
+
+.snow {
+  background-size: 70em;
+}
+
+.snowbis {
+  background-size: 50em;
+}
+
+.text {
+  color: #fff;
+  text-align: center;
+}
+
+.text h1 {
+  font-family: cursive;
+  font-size: 4em;
+  text-shadow: 5px 5px 10px #111;
+  font-family: cursive;
+}
+
+.text p {
+  color: #ff4e48;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+@keyframes snowfall {
+  100% {
+    background-position: 70em 70em;
+  }
+}
+@keyframes snowfallbis {
+  100% {
+    background-position: 50em 0em;
+  }
+}
+
+/*# sourceMappingURL=neige.css.map */

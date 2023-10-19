@@ -1,0 +1,23 @@
+{
+  "name": "neige_js",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000c\u0000h\u0000u\u0000t\u0000e\u0000-\u0000d\u0000e\u0000-\u0000n\u0000e\u0000i\u0000g\u0000e\u0000-\u0000a\u0000n\u0000i\u0000m\u0000a\u0000t\u0000i\u0000o\u0000n\u0000_\u0000j\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass:./css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SabrinaMouginot/chute-de-neige-animation_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SabrinaMouginot/chute-de-neige-animation_js/issues"
+  },
+  "homepage": "https://github.com/SabrinaMouginot/chute-de-neige-animation_js#readme",
+  "dependencies": {
+    "sass": "^1.69.4"
+  }
+}
